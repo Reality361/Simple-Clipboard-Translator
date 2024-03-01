@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title class="ignore notranslate">Simple Clipboard Translator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="contentDiv" class="content">
+      <div id="google-translate-element" style="display: none"></div>
+      <br>
+
+      <script src="./translate.js"></script>
+      <script src="./msg.js"></script>
+      <script type="text/javascript" src="./element.js?cb=googleTranslateElementInit"></script>
+
+      <div class="notranslate">
+        <button id="button2GG" class="button-13" role="button" onclick="changeTranslator2GG()">Use Google Translator</button>
+        <button id="button2JS" class="button-13" role="button" onclick="changeTranslator2JS()" style="display: none">Use Combined Translator</button>
+        <input type="checkbox" id="listenCheckbox" checked/>Monitor Clipboard
+      </div>
+
+      <h3 class="notranslate">Original Text:</h2>
+      <textarea id="from-text" class="textarea notranslate ignore" placeholder="This is the original text."></textarea>
+      <br>
+      <div id="changeLLang" class="dropdown">
+        <button class="dropbtn notranslate">Select Local Language</button>
+        <div class="dropdownitem notranslate ignore">
+          <a href="javascript:translate.language.setLocal('english');">English</a> | 
+          <a href="javascript:translate.language.setLocal('chinese_simplified');">简体中文</a> | 
+          <a href="javascript:translate.language.setLocal('chinese_traditional');">繁體中文</a>
+        </div>
+      </div>
+      
+      <h3 class="notranslate">Translated Text:</h2>
+      <div id="changeTLang" class="dropdown">
+        <button class="dropbtn notranslate">Select Translated Language</button>
+        <div class="dropdownitem notranslate ignore">
+          <a href="javascript:translate.changeLanguage('english');">English</a> | 
+          <a href="javascript:translate.changeLanguage('chinese_simplified');;">简体中文</a> | 
+          <a href="javascript:translate.changeLanguage('chinese_traditional');">繁體中文</a> |
+          <a href="javascript:translate.changeLanguage('japanese');">日本語</a> |
+          <a href="javascript:translate.changeLanguage('french');">Français</a> |
+          <a href="javascript:translate.changeLanguage('deutsch');">Deutsch</a> |
+          <a href="javascript:translate.changeLanguage('russian');">Русский</a> |
+          <a href="javascript:translate.changeLanguage('korean');">한국인</a> |
+          <a href="javascript:translate.changeLanguage('hindi');">हिंदी</a>
+        </div>
+        <br>
+      </div>
+
+      <p id="to-text" class="result notranslate"></p>
+
+      <div id="translate" class="notranslate ignore" style="display: none">
+        Select Translated Language: 
+      </div>
+
+      <script type="text/javascript" src="./google-init.js"></script>
+      <script src="./clipboard.js"></script>
+      <script src="./js-init.js"></script>
+      <script type="text/javascript" src="./service-switch.js"></script>
+    </div>
+  </body>
+</html>
