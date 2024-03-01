@@ -7,7 +7,7 @@ A simple translator that can monitor your clipboard and translate its content.
 1. Open this tool. Drag and select the text you want to translate.
 ![20240301174621](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/496d9b44-f478-4ab2-9991-6e97fc0882d9)
 
-2. Press Ctrl+C (or any way to copy it).
+2. Press Ctrl+C (or any other way to copy it).
 ![20240301174630](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/5cf66346-aec1-44b5-bd77-fe4d479363c4)
 
 3. Wait for about a second. And the tool would automatically display the translated text.
