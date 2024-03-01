@@ -1,11 +1,11 @@
 # Simple-Clipboard-Translator
 A simple translator that can monitor your clipboard and translate its content.
 
-## Overview
-1. Combined Translator (using translate.js)
+## Overview: Two Modes
+### Combined Translator (using translate.js)
 ![20240301181711](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/52ec460d-8e85-4e65-b599-fc93d602d51f)
 
-2.Google Translator
+### Google Translator
 ![20240301181717](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/a4514d8d-4aef-430e-af12-0719d23c4989)
 
    
