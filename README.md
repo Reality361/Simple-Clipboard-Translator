@@ -8,7 +8,19 @@ A simple translator that can monitor your clipboard and translate its content.
 ### Google Translator
 ![20240301181717](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/a4514d8d-4aef-430e-af12-0719d23c4989)
 
-   
+## How to install it?
+
+[Releases](https://github.com/Reality361/Simple-Clipboard-Translator/releases)
+
+To get the project, just install npm, electron, and electron-forge and run this command:
+```
+npm init electron-app@latest my-app
+```
+Replace the folder: my-app/src with this src folder.
+Run this:
+```
+npm start
+```
 ## How to use it?
 (Take English -> Chinese(Simplified) as an example)
 
