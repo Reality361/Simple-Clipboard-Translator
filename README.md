@@ -12,17 +12,18 @@ A simple translator that can monitor your clipboard and translate its content.
 
 [Releases](https://github.com/Reality361/Simple-Clipboard-Translator/releases)
 
-To get the project, just install npm, electron, and electron-forge and run this command:
+To get the project, just install npm, electron, and electron-forge and open a folder, run this command:
 ```
 npm init electron-app@latest my-app
 ```
 Replace the folder: my-app/src with this src folder.
-Or open this folder with Git Bash and run this:
+Or open the folder with Git Bash and run this:
 ```
 git clone https://github.com/Reality361/Simple-Clipboard-Translator
 ```
 Finally, run this:
 ```
+cd my-app
 npm start
 ```
 ## How to use it?
