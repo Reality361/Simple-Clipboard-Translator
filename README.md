@@ -8,7 +8,9 @@ A simple translator that can monitor your clipboard and translate its content.
 
 
 ### Google Translator
-![20240302220206](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/a9786b5c-c846-43d4-916a-7cbceb34a850)
+![20240302221848](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/7d78b32d-5fe6-4d12-af1f-df8dc3afcc81)
+![20240302222000](https://github.com/Reality361/Simple-Clipboard-Translator/assets/154047191/195866fb-311d-42dd-ba56-b8c22a0bcb02)
+
 
 
 ## How to install it?
