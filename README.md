@@ -17,7 +17,11 @@ To get the project, just install npm, electron, and electron-forge and run this 
 npm init electron-app@latest my-app
 ```
 Replace the folder: my-app/src with this src folder.
-Run this:
+Or open this folder with Git Bash and run this:
+```
+git clone https://github.com/Reality361/Simple-Clipboard-Translator
+```
+Finally, run this:
 ```
 npm start
 ```
